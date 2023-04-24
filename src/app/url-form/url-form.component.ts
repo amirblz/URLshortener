@@ -27,7 +27,7 @@ export class UrlFormComponent implements OnInit {
       domain: 'bit.ly',
     });
     let headers = new HttpHeaders({
-      Authorization: 'Bearer 047448797b98acc6fd038d981d8e6c4a8987f6cb',
+      Authorization: 'Bearer {bitly token}',
       'Content-Type': 'application/json',
     });
     let options = { headers: headers };
